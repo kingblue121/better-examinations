@@ -366,7 +366,7 @@ function ChoicesForm() {
           <Listbox name="cert" value={certificate} onChange={handleCertChange}>
             {({ open }) => (
               <div className="relative">
-                <Listbox.Button className="text-white text-left bg-zinc-900 border-2 border-spacing-2 border-[#303436] w-full rounded-md p-3 hover:border-[#494f52] hover:bg-[#494f52] transition-all duration-200">
+                <Listbox.Button className="text-white text-left bg-zinc-900 border-2 border-spacing-2 border-[#ff00a2] w-full rounded-md p-3 hover:border-[#8a2063] hover:bg-[#e879bf] transition-all duration-200">
                   {(certificate === "lc" ? "Leaving Certificate" : "Junior Certificate")}
                   <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
                     <ChevronUpDownIcon
